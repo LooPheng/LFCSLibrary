@@ -11,7 +11,7 @@ namespace LFCSLibrary.Utils
         /// <summary>
         /// 执行cmd命令 2018.08.12
         /// </summary>
-        /// <param name="cmd">需要执行的命令行</param>
+        /// <param name="cmd">需要执行的命令</param>
         /// <param name="cmdPath">指定cmd.exe在本机中的全路径，留空则默认为：C:\Windows\System32\cmd.exe</param>
         /// <returns>cmd执行完毕后窗口的输出信息</returns>
         public static string RunCmd(string cmd, string cmdPath)
